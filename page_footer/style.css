@@ -1,0 +1,61 @@
+body {
+  background-color: #1f1f1f;
+  color: white;
+}
+
+/* menu de navigation */
+nav {
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navi {
+  margin-top: auto;
+  color: white;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1%;
+  /*width: 80%;*/
+  background-color: #333333;
+  margin-top: 2%;
+}
+
+/* liens */
+a {
+  margin: 1em;
+  text-transform: uppercase;
+  color: white;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: gray;
+  text-decoration: underline;
+}
+
+/* logo */
+img {
+  height: 4em;
+}
+
+.social {
+  background-color: #333333;
+  display: block;
+  padding-top: 0.25%;
+  padding-bottom: 2%;
+}
+
+i {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

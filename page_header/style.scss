@@ -1,0 +1,50 @@
+$main-background-color: #1f1f1f;
+$background-color: #333333;
+$border-color: #f7f7f7; 
+$text-color: white;
+
+body {
+	background-color: $main-background-color;
+	color: white;
+	text-align: center;
+}
+
+/* menu de navigation */
+
+nav {
+	display: flex;
+	justify-content: center;
+}
+
+.navigator {
+	margin-top: auto;
+	color: $text-color;
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	padding: 2%;
+	/*width: 80%;*/
+}
+
+/* liens */
+
+a {
+	margin: 1em;
+	text-transform: uppercase;
+	color: $text-color;
+}
+
+a:link {
+	text-decoration: none;
+  }
+
+a:hover {
+	color: gray;
+	text-decoration: underline;
+}
+
+/* logo */
+
+img {
+	height: 4em;
+}

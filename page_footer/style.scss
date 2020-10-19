@@ -1,0 +1,62 @@
+$main-background-color: #1f1f1f;
+$background-color: #333333;
+$border-color: #f7f7f7; 
+$text-color: white;
+
+body {
+	background-color: $main-background-color;
+	color: white;
+}
+
+/* menu de navigation */
+
+nav {
+	display: block;
+	justify-content: center;
+}
+
+.navi {
+	margin-top: auto;
+	color: $text-color;
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	padding: 1%;
+	/*width: 80%;*/
+	background-color: $background-color;
+	margin-top: 2%;
+}
+
+/* liens */
+
+a {
+	margin: 1em;
+	text-transform: uppercase;
+	color: $text-color;
+}
+
+a:link {
+	text-decoration: none;
+  }
+
+a:hover {
+	color: gray;
+	text-decoration: underline;
+}
+
+/* logo */
+
+img {
+	height: 4em;
+}
+
+.social {
+	background-color: $background-color;
+	display: block;
+	padding-top: 0.25%;
+	padding-bottom: 2%;
+}
+
+i {
+	color: white;
+}

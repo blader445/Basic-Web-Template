@@ -1,0 +1,51 @@
+body {
+  background-color: #1f1f1f;
+  color: white;
+  text-align: center;
+}
+
+/* menu de navigation */
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navigator {
+  margin-top: auto;
+  color: white;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2%;
+  /*width: 80%;*/
+}
+
+/* liens */
+a {
+  margin: 1em;
+  text-transform: uppercase;
+  color: white;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: gray;
+  text-decoration: underline;
+}
+
+/* logo */
+img {
+  height: 4em;
+}
+/*# sourceMappingURL=style.css.map */

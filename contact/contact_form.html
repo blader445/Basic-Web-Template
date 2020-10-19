@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!--Language du document-->
+<html lang="fr">
+	<head>
+		<!--Encodage du document-->
+		<meta charset="UTF-8">
+		
+		<!-- Script CSS -->
+		<link rel="stylesheet" type="text/css" href="contact/style.css"> 
+    </head>
+    <body>
+        <div class="formulaire">
+            <form action="contact/mail.php" method="POST">
+                <p>Nom</p> <input type="text" name="name">
+                <p>Email</p> <input type="text" name="email">
+                <br />
+                <p>Message</p>
+                <textarea name="message" rows="6" cols="25"></textarea>
+                <br />
+                <input type="reset" value="Effacer">
+                <input type="submit" value="Envoyer">
+            </form>
+        </div>
+    </body>
+</html>

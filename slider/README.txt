@@ -1,0 +1,1 @@
+1280 x 720 px images for the slider
